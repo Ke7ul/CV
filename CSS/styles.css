@@ -1,6 +1,7 @@
 body {background-color: #b0efeb;}
 hr {
   border-style: dotted none none none;
+  background-color: none;
   border-color: #222831;
   border-width: 5px;
   width: 6%;
