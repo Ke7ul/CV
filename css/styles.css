@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+li {font-family: 'Merriweather', serif;
+font-weight: normal;
+font-size: 16px;
+color: #00adb5;
+text-decoration: none;
+}
+
+header {display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px 5%;
+  background-color: black;
+}
+
+.logo {cursor: pointer;
+}
+
+.tbar {list-style: none;
+}
+.tbar li {display: inline-block;
+padding: 0 20px;
+}
+a {transition: all 0.3s ease 0s;
+}
+a:hover {color: #00adb5;}
+
+hr {border-style: dotted none none none;
+  border-color: #51c4d3;
+  border-width: 5px;
+  width: 6%;}
+
+a {font-family: 'Merriweather', serif;
+margin-left: 20px;
+margin-right: 20px;
+  color: #fff;
+    background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-size: 4.7rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  color: #fff;
+    background: linear-gradient(171deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.webd {
+  font-family: 'Source Code Pro', monospace;
+  color: #3edbf0;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #fff;
+    background: linear-gradient(101deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  color: #fff;
+    background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+  color: #3edbf0;
+  line-height: 2;
+}
+
+.me-img {float: left;
+  padding-left: 40px;
+}
+
+.skills {clear: left;}
+
+.top-container {
+  background-color: black;
+  position: relative;
+  padding-top: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  padding-top: 60px;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-row2 {width: 50%;
+padding-top: 60px;
+padding-bottom: 30px;
+margin: 50px auto;
+text-align: left;
+line-height: 2;
+}
+.middle-container { background-color: black;
+padding-top: 80px;
+padding-bottom: 20px;}
+
+.skill-1 {
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-2 {
+  width: 18%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {background-color: black;
+  padding: 20px 0;
+
+}
+.hireme {width: 20%}
+.b-c {
+  position: absolute;
+  left: 50px;
+  bottom: -80px;
+  width: 25%;
+}
+
+.t-c {
+  position: absolute;
+  right: 100px;
+  top: 340px;
+  width: 25%;
+}
+
+.c-c {
+  width: 36%;
+}
+
+.copyright {font-size: 0.75rem;
+padding: 20px 0;}
